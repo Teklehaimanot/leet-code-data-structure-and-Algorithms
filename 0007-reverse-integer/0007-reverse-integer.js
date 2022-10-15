@@ -16,6 +16,7 @@ var reverse = function(x) {
     }
     
     if(rev > Math.pow(2,31)-1) return 0
+    
     if(flag){
         return rev * -1
     }
